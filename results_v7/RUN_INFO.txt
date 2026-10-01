@@ -1,0 +1,8 @@
+host: Apple M4 Pro, 48 GB RAM, macOS 26.6.2
+python 3.9.6 numpy 2.0.2 sklearn 1.6.1 scipy 1.13.1
+cmd: python3 -m experiments.run_benchmark --jobs 1 --results-dir ../results_v7
+code: shared blocked gamma kernel; matrix-free core; M_POS pairs; backward prune (surrogate, CCAR-H); NIP-NRS baseline
+started: Sat Sep 26 08:48:55 UTC 2026
+finished: Sat Sep 26 09:30:58 UTC 2026
+scal started Sat Sep 26 09:34:11 UTC 2026
+scal finished Sat Sep 26 11:42:15 UTC 2026

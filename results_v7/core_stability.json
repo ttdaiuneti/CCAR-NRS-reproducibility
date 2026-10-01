@@ -1,0 +1,1358 @@
+{
+  "delta": 0.1,
+  "n_splits": 5,
+  "summaries": [
+    {
+      "dataset": "wine",
+      "display_name": "Wine",
+      "n_features": 13,
+      "core_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "core_size_mean": 0.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [],
+      "stable_core_names": [],
+      "fold_cores": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "dataset": "wdbc",
+      "display_name": "WDBC",
+      "n_features": 30,
+      "core_sizes": [
+        7,
+        2,
+        2,
+        8,
+        6
+      ],
+      "core_size_mean": 5.0,
+      "core_size_std": 2.5298221281347035,
+      "jaccard_mean": 0.3498015873015873,
+      "stable_core_indices": [
+        21,
+        24,
+        27
+      ],
+      "stable_core_names": [
+        "worst texture",
+        "worst smoothness",
+        "worst concave points"
+      ],
+      "fold_cores": [
+        [
+          8,
+          11,
+          18,
+          21,
+          24,
+          27,
+          28
+        ],
+        [
+          24,
+          26
+        ],
+        [
+          21,
+          27
+        ],
+        [
+          1,
+          8,
+          11,
+          18,
+          21,
+          24,
+          27,
+          28
+        ],
+        [
+          1,
+          8,
+          18,
+          21,
+          24,
+          27
+        ]
+      ]
+    },
+    {
+      "dataset": "sonar",
+      "display_name": "Sonar",
+      "n_features": 60,
+      "core_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "core_size_mean": 0.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [],
+      "stable_core_names": [],
+      "fold_cores": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "dataset": "ionosphere",
+      "display_name": "Ionosphere",
+      "n_features": 34,
+      "core_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "core_size_mean": 0.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [],
+      "stable_core_names": [],
+      "fold_cores": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "dataset": "heart",
+      "display_name": "Heart",
+      "n_features": 13,
+      "core_sizes": [
+        3,
+        3,
+        3,
+        1,
+        3
+      ],
+      "core_size_mean": 2.6,
+      "core_size_std": 0.8,
+      "jaccard_mean": 0.42333333333333334,
+      "stable_core_indices": [
+        11
+      ],
+      "stable_core_names": [
+        "vessels"
+      ],
+      "fold_cores": [
+        [
+          2,
+          6,
+          11
+        ],
+        [
+          2,
+          6,
+          11
+        ],
+        [
+          0,
+          10,
+          11
+        ],
+        [
+          11
+        ],
+        [
+          6,
+          10,
+          11
+        ]
+      ]
+    },
+    {
+      "dataset": "credit",
+      "display_name": "German Credit",
+      "n_features": 20,
+      "core_sizes": [
+        2,
+        2,
+        0,
+        1,
+        2
+      ],
+      "core_size_mean": 1.4,
+      "core_size_std": 0.8,
+      "jaccard_mean": 0.45,
+      "stable_core_indices": [
+        10
+      ],
+      "stable_core_names": [
+        "residence since"
+      ],
+      "fold_cores": [
+        [
+          6,
+          10
+        ],
+        [
+          6,
+          10
+        ],
+        [],
+        [
+          10
+        ],
+        [
+          6,
+          10
+        ]
+      ]
+    },
+    {
+      "dataset": "diabetes",
+      "display_name": "Diabetes",
+      "n_features": 8,
+      "core_sizes": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "core_size_mean": 8.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "dataset": "iris",
+      "display_name": "Iris",
+      "n_features": 4,
+      "core_sizes": [
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "core_size_mean": 4.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ],
+        [
+          0,
+          1,
+          2,
+          3
+        ]
+      ]
+    },
+    {
+      "dataset": "glass",
+      "display_name": "Glass",
+      "n_features": 9,
+      "core_sizes": [
+        6,
+        8,
+        6,
+        8,
+        7
+      ],
+      "core_size_mean": 7.0,
+      "core_size_std": 0.8944271909999159,
+      "jaccard_mean": 0.8464285714285715,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        8
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a9"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "dataset": "vehicle",
+      "display_name": "Vehicle",
+      "n_features": 18,
+      "core_sizes": [
+        14,
+        13,
+        12,
+        14,
+        12
+      ],
+      "core_size_mean": 13.0,
+      "core_size_std": 0.8944271909999159,
+      "jaccard_mean": 0.9131868131868132,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        7,
+        9,
+        12,
+        14,
+        15,
+        16,
+        17
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a8",
+        "a10",
+        "a13",
+        "a15",
+        "a16",
+        "a17",
+        "a18"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          12,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          9,
+          12,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          7,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          7,
+          9,
+          12,
+          14,
+          15,
+          16,
+          17
+        ]
+      ]
+    },
+    {
+      "dataset": "vowel",
+      "display_name": "Vowel",
+      "n_features": 13,
+      "core_sizes": [
+        9,
+        10,
+        9,
+        10,
+        10
+      ],
+      "core_size_mean": 9.6,
+      "core_size_std": 0.48989794855663565,
+      "jaccard_mean": 0.9400000000000001,
+      "stable_core_indices": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10,
+        11,
+        12
+      ],
+      "stable_core_names": [
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a11",
+        "a12",
+        "a13"
+      ],
+      "fold_cores": [
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      ]
+    },
+    {
+      "dataset": "australian",
+      "display_name": "Australian",
+      "n_features": 14,
+      "core_sizes": [
+        14,
+        12,
+        14,
+        14,
+        14
+      ],
+      "core_size_mean": 13.6,
+      "core_size_std": 0.7999999999999999,
+      "jaccard_mean": 0.9428571428571428,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8",
+        "a9",
+        "a10",
+        "a11",
+        "a12",
+        "a13",
+        "a14"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      ]
+    },
+    {
+      "dataset": "ecoli",
+      "display_name": "Ecoli",
+      "n_features": 7,
+      "core_sizes": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "core_size_mean": 6.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        4,
+        5,
+        6
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a5",
+        "a6",
+        "a7"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ],
+        [
+          0,
+          1,
+          2,
+          4,
+          5,
+          6
+        ]
+      ]
+    },
+    {
+      "dataset": "yeast",
+      "display_name": "Yeast",
+      "n_features": 8,
+      "core_sizes": [
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "core_size_mean": 8.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a3",
+        "a4",
+        "a5",
+        "a6",
+        "a7",
+        "a8"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    },
+    {
+      "dataset": "dermatology",
+      "display_name": "Dermatology",
+      "n_features": 34,
+      "core_sizes": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "core_size_mean": 0.0,
+      "core_size_std": 0.0,
+      "jaccard_mean": 1.0,
+      "stable_core_indices": [],
+      "stable_core_names": [],
+      "fold_cores": [
+        [],
+        [],
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "dataset": "segment",
+      "display_name": "Segment",
+      "n_features": 19,
+      "core_sizes": [
+        11,
+        11,
+        11,
+        10,
+        11
+      ],
+      "core_size_mean": 10.8,
+      "core_size_std": 0.39999999999999997,
+      "jaccard_mean": 0.9636363636363635,
+      "stable_core_indices": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        7,
+        13,
+        14,
+        15,
+        17,
+        18
+      ],
+      "stable_core_names": [
+        "a1",
+        "a2",
+        "a4",
+        "a5",
+        "a6",
+        "a8",
+        "a14",
+        "a15",
+        "a16",
+        "a18",
+        "a19"
+      ],
+      "fold_cores": [
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          17,
+          18
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          17,
+          18
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          17,
+          18
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          13,
+          15,
+          17,
+          18
+        ],
+        [
+          0,
+          1,
+          3,
+          4,
+          5,
+          7,
+          13,
+          14,
+          15,
+          17,
+          18
+        ]
+      ]
+    },
+    {
+      "dataset": "chess",
+      "display_name": "Chess (KR-KP)",
+      "n_features": 36,
+      "core_sizes": [
+        24,
+        27,
+        26,
+        22,
+        24
+      ],
+      "core_size_mean": 24.6,
+      "core_size_std": 1.7435595774162693,
+      "jaccard_mean": 0.8569088319088319,
+      "stable_core_indices": [
+        0,
+        2,
+        3,
+        5,
+        6,
+        9,
+        11,
+        14,
+        15,
+        16,
+        17,
+        19,
+        20,
+        22,
+        23,
+        24,
+        26,
+        29,
+        30,
+        32,
+        33,
+        34
+      ],
+      "stable_core_names": [
+        "a1",
+        "a3",
+        "a4",
+        "a6",
+        "a7",
+        "a10",
+        "a12",
+        "a15",
+        "a16",
+        "a17",
+        "a18",
+        "a20",
+        "a21",
+        "a23",
+        "a24",
+        "a25",
+        "a27",
+        "a30",
+        "a31",
+        "a33",
+        "a34",
+        "a35"
+      ],
+      "fold_cores": [
+        [
+          0,
+          2,
+          3,
+          5,
+          6,
+          9,
+          11,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          26,
+          27,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          25,
+          26,
+          29,
+          30,
+          32,
+          33,
+          34,
+          35
+        ],
+        [
+          0,
+          2,
+          3,
+          5,
+          6,
+          9,
+          11,
+          14,
+          15,
+          16,
+          17,
+          19,
+          20,
+          22,
+          23,
+          24,
+          26,
+          29,
+          30,
+          32,
+          33,
+          34
+        ],
+        [
+          0,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          11,
+          12,
+          14,
+          15,
+          16,
+          19,
+          20,
+          22,
+          24,
+          25,
+          26,
+          27,
+          29,
+          30,
+          32,
+          33,
+          34
+        ]
+      ]
+    },
+    {
+      "dataset": "vote",
+      "display_name": "Congressional",
+      "n_features": 16,
+      "core_sizes": [
+        5,
+        6,
+        2,
+        7,
+        6
+      ],
+      "core_size_mean": 5.2,
+      "core_size_std": 1.7204650534085253,
+      "jaccard_mean": 0.5542857142857143,
+      "stable_core_indices": [
+        1,
+        2,
+        10,
+        15
+      ],
+      "stable_core_names": [
+        "a2",
+        "a3",
+        "a11",
+        "a16"
+      ],
+      "fold_cores": [
+        [
+          1,
+          2,
+          8,
+          10,
+          15
+        ],
+        [
+          0,
+          1,
+          2,
+          10,
+          12,
+          15
+        ],
+        [
+          2,
+          8
+        ],
+        [
+          0,
+          1,
+          2,
+          8,
+          10,
+          12,
+          15
+        ],
+        [
+          0,
+          1,
+          2,
+          10,
+          12,
+          15
+        ]
+      ]
+    }
+  ],
+  "wdbc_stable_names": [
+    "worst texture",
+    "worst smoothness",
+    "worst concave points"
+  ],
+  "credit_stable_names": [
+    "residence since"
+  ],
+  "heart_stable_names": [
+    "vessels"
+  ]
+}
