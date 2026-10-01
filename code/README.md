@@ -39,8 +39,8 @@ python -m experiments.run_scalability                                      # Cov
 
 ```sh
 python scripts/manuscript_numbers.py ../results_v7/benchmark_20datasets.csv   # all benchmark statistics and table rows
-python scripts/plot_scaling_axes.py ../results_v7/benchmark_20datasets.csv ../results_v7/benchmark_20datasets.csv scaling_axes.png
-python scripts/plot_delta_sweep.py ../results_v7/delta_sweep_v7.csv delta_sensitivity.png
+python scripts/plot_scaling_axes.py ../results_v7/benchmark_20datasets.csv ../results_v7/benchmark_20datasets.csv scaling_axes.pdf
+python scripts/plot_delta_sweep.py ../results_v7/delta_sweep_v7.csv delta_sensitivity.pdf
 ```
 
 ## Licence
