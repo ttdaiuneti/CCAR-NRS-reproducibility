@@ -104,7 +104,7 @@ def main() -> None:
     style_axes(ax2)
 
     fig.tight_layout()
-    fig.savefig(out, dpi=300, bbox_inches="tight")
+    fig.savefig(out, dpi=360, bbox_inches="tight")
     print(f"Wrote {out}")
 
 
